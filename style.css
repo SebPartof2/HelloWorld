@@ -1,5 +1,18 @@
+/* filepath: c:\Repos\HelloWorld\style.css */
+.language-container {
+    border: 5px solid black;
+    padding: 20px;
+    text-align: center; /* Center text within the parent container */
+    margin: 0 auto; /* Center the block-level element */
+    display: inline-block; /* Make the container fit its content */
+}
+
 .language {
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: block; /* Make the anchor element a block-level element */
+}
+
+#languages {
+    text-align: center; /* Center child elements */
 }
