@@ -1,10 +1,16 @@
-/* filepath: c:\Repos\HelloWorld\style.css */
+.languages-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .language-container {
     border: 5px solid black;
     padding: 20px;
     text-align: center; /* Center text within the parent container */
     margin: 0 auto; /* Center the block-level element */
-    display: inline-block; /* Make the container fit its content */
+    display: flex; /* Make the container fit its content */
+    align-items: center;
 }
 
 .language {
@@ -13,6 +19,9 @@
     display: block; /* Make the anchor element a block-level element */
 }
 
-#languages {
-    text-align: center; /* Center child elements */
+.language-container img {
+    width: 1em; /* Set the width relative to the font size */
+    height: 1em; /* Set the height relative to the font size */
+    vertical-align: middle; /* Align the image vertically with the text */
+    margin-right: 10px;
 }
